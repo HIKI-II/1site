@@ -36,6 +36,7 @@ border: 2px solid red;
     background-image: url(./bulochki.jpg);
     min-height: 100vh;
     background-repeat: no-repeat;
+    padding-bottom: 150px;
 }
 .headertop {
     display: flex;
@@ -148,6 +149,8 @@ padding-top: 10px;
 color: #404149;
 }
  
+
+
 .rec h2{
     color: #FFFFFF;
    text-align: left;
@@ -175,6 +178,12 @@ color: #404149;
     display: flex;
     justify-content: space-between;
   }
+
+.zzz h3 {
+    color: #FFFFFF;
+
+}
+
 
   .mailbg p{
     color: #000;
@@ -304,6 +313,10 @@ text-transform: uppercase;
 color: #000000;
 }
 
+.inftext2 span {
+    color: #F7654A;
+}
+
 .info {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -367,10 +380,14 @@ body {
     font-size:18px;
 }
 
+.bbb {
+    padding: 60px 55px;
+}
+
 }
 @media all and (max-width:768px) {
     .headerinfo h1 {
-        line-height: 70px;
+        line-height: 80px;
         padding-top: 10px;
     }
     body {
@@ -380,6 +397,35 @@ body {
         width: 200px;
         line-height: 20px;
     }
+
+.h {
+    padding: 57px 60px;
+
+}
+
+.bbb {
+    padding: 60px 55px;
+}
+
+.uuu {
+    flex-direction: column;
+    align-items: center;
+}
+
+.rabota h2, .rabota p{
+    text-align: center;
+}
+
+
+.kkk h4 {
+    font-size: 15px;
+}
+
+.info {
+    grid-template-columns: repeat(2,1fr);
+}
+
+
 }
 @media all and (max-width:480px) {
    .headerinfo h1 {
@@ -401,6 +447,63 @@ h3 {
 p { 
     padding-right: 70px;
 }
+.h {
+    padding: 57px 12px;
+    grid-template-columns: repeat(2,1fr);
+}
+.zzz {
+    flex-direction: column;
+    align-items: center;
+}
+
+.zxc h2 {
+    padding: 0px 0px;
+}
+
+.otz h2 {
+    padding: 0px 0px;
+}
+
+.ivc {
+    grid-template-columns: repeat(1,1fr);
+}
+
+.uuu {
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.smallinfo img {
+    margin-left: 59px;
+}
+
+.bbb {
+    grid-template-columns:repeat(1,1fr)
+}
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
